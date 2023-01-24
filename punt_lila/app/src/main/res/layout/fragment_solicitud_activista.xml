@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentSolicitudActivista"
+    android:background="@color/Purpura"
+    android:backgroundTint="@color/Purpura"
+    >
+
+    <Button
+        android:id="@+id/EnviarFormulari"
+        style="@style/buttonStyle"
+        android:backgroundTint="@color/Morado"
+        android:text="@string/formulari"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <TextView
+            android:id="@+id/textView"
+            style="@style/Titulo"
+            android:layout_width="169dp"
+            android:layout_height="64dp"
+            android:background="@drawable/corner"
+            android:backgroundTint="@color/Morado"
+            android:text="@string/SolicitudActivista"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Titulo"
+        android:layout_width="412dp"
+        android:layout_height="76dp"
+        android:background="@color/Morado"
+        android:backgroundTint="@color/Morado"
+        android:text="@string/textFormulari"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

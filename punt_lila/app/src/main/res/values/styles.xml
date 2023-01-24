@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Boton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+    <style name="colorBoton">
+        <item id="FAQ" name="android:button">@color/white</item>
+    </style>
+    <style name="colorFondo">
+        <item name="android:buttonStyle">@color/Purpura</item>
+        <item name="android:background">@color/Purpura</item>
+    </style>
+
+    <style name="buttonStyle" parent="Boton">
+        <item name="android:layout_width">162dp</item>
+        <item name="android:layout_height">66dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="barraTexto">
+        <item name="android:background">@color/Morado</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="botonEvento">
+        <item name="android:backgroundTint">@color/Morado</item>
+    </style>
+    <style name="textoMenu">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/Morado</item>
+    </style>
+    <style name="cardview">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="Titulo">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

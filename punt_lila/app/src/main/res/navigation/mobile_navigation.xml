@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_eventos">
+    <fragment
+        android:id="@+id/fragment_eventos"
+        android:name="com.copernic.PuntLila.Fragments.FragmentEventos"
+        android:label="fragment_eventos"
+        tools:layout="@layout/fragment_eventos" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_puntoslila"
+        android:name="com.copernic.PuntLila.Fragments.FragmentPuntosLila"
+        android:label="fragment_puntoslila"
+        tools:layout="@layout/fragment_puntoslila" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_recursos"
+        android:name="com.copernic.PuntLila.Fragments.fragment_recursos"
+        android:label="fragment_recursos"
+        tools:layout="@layout/fragment_recursos" />
+
+    <fragment
+        android:id="@+id/fragment_solicitud_activista2"
+        android:name="com.copernic.PuntLila.Fragments.FragmentSolicitudActivista"
+        android:label="fragment_solicitud_activista"
+        tools:layout="@layout/fragment_solicitud_activista" />
+
+    <fragment
+        android:id="@+id/fragment_mis_eventos"
+        android:name="com.copernic.PuntLila.Fragments.FragmentMisEventos"
+        android:label="fragment_Mis_Eventos"
+        tools:layout="@layout/fragment_mis_eventos">
+        <argument
+            android:name="eventosApuntado"
+            app:argType="string" />
+    </fragment>
+
+    <action android:id="@+id/action_global_fragment_solicitud_activista2" app:destination="@id/fragment_solicitud_activista2" />
+    <action android:id="@+id/action_global_fragment_recursos" app:destination="@id/fragment_recursos" />
+    <action android:id="@+id/action_global_fragment_eventos" app:destination="@id/fragment_eventos" />
+    <action android:id="@+id/action_global_fragment_Mis_Eventos" app:destination="@id/fragment_mis_eventos" />
+    <action android:id="@+id/action_fragment_eventos_to_fragment_mis_eventos" app:destination="@id/fragment_mis_eventos" />
+    <action android:id="@+id/action_global_fragment_puntoslila" app:destination="@id/fragment_puntoslila" />
+
+
+</navigation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pantallas App</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Tablero</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="correo">Correo</string>
+    <string name="condiciones">He leído y acepto las condiciones de uso y las Políticas de Privacidad</string>
+    <string name="name">Nombre</string>
+    <string name="recuperarCuenta">Recuperar Cuenta</string>
+    <string name="channel_name">Formulario Enviado</string>
+    <string name="channel_description">El formulario ha sido enviado correctamente.</string>
+    <string name="Password">Contraseña</string>
+    <string name="registrar_se">Registrarse</string>
+    <string name="inicia_sessi">Iniciar Sesión</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="RepeatPassword">Repetir Contraseña</string>
+    <string name="insertar_dni">Insertar DNI</string>
+    <string name="chat">Escribir</string>
+    <string name="EventTitle">Eventos</string>
+    <string name="ButtonList">Lista</string>
+    <string name="ButtonMap">Mapa</string>
+    <string name="textoMenu">Menu</string>
+    <string name="Eventos">Eventos</string>
+    <string name="Recursos">Recursos</string>
+    <string name="Charlas">Charlas</string>
+    <string name="PuntosLila">Puntos Lila</string>
+    <string name="SolicitudActivista">Solicitud Activista</string>
+    <string name="AjustesUsu">Ajustes Usuario</string>
+    <string name="MisEvents">Mis eventos</string>
+    <string name="activista">Activista</string>
+    <string name="textoActivista">¿Quieres ser activista?</string>
+    <string name="formulari">Enviar el formulario</string>
+    <string name="textFormulari">Para poder ser activista, tendrás que rellenar un formulario pulsando el siguiente botón</string>
+    <string name="Nombre_Usuario">Nombre de usuario</string>
+    <string name="CerrarSesion">Cerrar Sesion</string>
+    <string name="botonLila">Web Punt Lila</string>
+    <string name="puntoLilaText">Los Puntos Lilas están destinados a informar, sensibilizar, denunciar y activar protocolos ante violencias y agresiones machistas y LGTBI-fóbicas que se produzcan en espacios públicos, ya sea de ocio y festivos, como otros espacios de interés público (educativos, deportivos, comerciales, sanitarios, etc.)</string>
+    <string name="Chat">Chat</string>
+</resources>
