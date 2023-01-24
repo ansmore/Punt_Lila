@@ -7,3 +7,5 @@ Proyecto APP Android
 [![registro.webp](https://i.postimg.cc/50czYBRw/registro.webp)](https://postimg.cc/8FHcx6D5)
 
 https://play.google.com/store/apps/details?id=com.copernic.PuntLila
+
+https://docs.google.com/document/d/1O4aktsYYhupKyzTKivoCiaAsOm7AKD0xkDOH49EDP5o/edit#
